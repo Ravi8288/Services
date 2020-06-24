@@ -1,0 +1,693 @@
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"/>
+  <soap:Body>
+    <ns3:CHECK_IN_STORE_BY_CITY_STATEResponse xmlns:ns3="http://www.abc.xyz.com/wsdl/CHECK_IN_STORE/v001_000" xmlns:ns2="http://www.abc.xyz.com/xsd/CHECK_IN_STORE/v001_000" xmlns:ns4="http://www.xyz.com/enterprise_services" xmlns:ns5="http://www.abc.xyz.com/xsd/STORE_LOCATOR/v001_000">
+      <output>
+        <UPC>11111111</UPC>
+        <STORE_AVAILABILITY>
+          <LOCATION_NUMBER>1</LOCATION_NUMBER>
+          <AVAILABLE_TO_SELL>0</AVAILABLE_TO_SELL>
+          <NOT_AVAILABLE_TO_SELL>1</NOT_AVAILABLE_TO_SELL>
+          <AVAILABLE_QTY>1</AVAILABLE_QTY>
+          <STATUS_FLAG>false</STATUS_FLAG>
+          <AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+          <LOCATION_NOT_FOUND>false</LOCATION_NOT_FOUND>
+          <STORE>
+            <DISTANCE>8.94</DISTANCE>
+            <STORE_MAP_URL>http://maps.googleapis.com/maps/api/staticmap?format=JPEG&amp;zoom=14&amp;size=400x400&amp;sensor=false&amp;key=AIzaSyC699Qqp-wPKXGVsQrRkaLXkp9vjoxg_hs&amp;markers=icon:http://www.xyz.com/dyn_img/google_maps/no_letter_red_icon_2.png%7C39.0727748,%20-84.3498945</STORE_MAP_URL>
+            <STORE>
+              <ns5:LOCATION_NUMBER>5267</ns5:LOCATION_NUMBER>
+              <ns5:DIVISION_NUMBER>12</ns5:DIVISION_NUMBER>
+              <ns5:ZL_STORE_NUMBER>568</ns5:ZL_STORE_NUMBER>
+              <ns5:ZL_DIVISION_NUMBER>71</ns5:ZL_DIVISION_NUMBER>
+              <ns5:ALT_STORE_NUMBER>2071</ns5:ALT_STORE_NUMBER>
+              <ns5:ALT_DIVISION_NUMBER>1837</ns5:ALT_DIVISION_NUMBER>
+              <ns5:ADDRESS>
+                <LOCATION_NUMBER>5267</LOCATION_NUMBER>
+                <STORE_NAME>Anderson Town Center                              </STORE_NAME>
+                <ADDRESS_LINE1>7440 BEECHMONT AVENUE                   </ADDRESS_LINE1>
+                <ADDRESS_LINE2>                                        </ADDRESS_LINE2>
+                <CITY>CINCINNATI     </CITY>
+                <STATE>OH</STATE>
+                <ZIPCODE>45255</ZIPCODE>
+                <COUNTRY>US</COUNTRY>
+                <PHONE_NUMBER>5136244280</PHONE_NUMBER>
+                <ADDRESS_TYPE>MAILING                       </ADDRESS_TYPE>
+              </ns5:ADDRESS>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5267</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-29</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5267</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-30</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5267</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-10-01</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5267</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>2</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Gift Registry                           </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+            </STORE>
+          </STORE>
+        </STORE_AVAILABILITY>
+        <STORE_AVAILABILITY>
+          <LOCATION_NUMBER>5264</LOCATION_NUMBER>
+          <AVAILABLE_TO_SELL>0</AVAILABLE_TO_SELL>
+          <NOT_AVAILABLE_TO_SELL>2</NOT_AVAILABLE_TO_SELL>
+          <AVAILABLE_QTY>5</AVAILABLE_QTY>
+          <STATUS_FLAG>false</STATUS_FLAG>
+          <AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+          <LOCATION_NOT_FOUND>false</LOCATION_NOT_FOUND>
+          <STORE>
+            <DISTANCE>10.20</DISTANCE>
+            <STORE_MAP_URL>http://maps.googleapis.com/maps/api/staticmap?format=JPEG&amp;zoom=14&amp;size=400x400&amp;sensor=false&amp;key=AIzaSyC699Qqp-wPKXGVsQrRkaLXkp9vjoxg_hs&amp;markers=icon:http://www.xyz.com/dyn_img/google_maps/no_letter_red_icon_2.png%7C39.0031282,%20-84.6521173</STORE_MAP_URL>
+            <STORE>
+              <ns5:LOCATION_NUMBER>5264</ns5:LOCATION_NUMBER>
+              <ns5:DIVISION_NUMBER>12</ns5:DIVISION_NUMBER>
+              <ns5:ZL_STORE_NUMBER>565</ns5:ZL_STORE_NUMBER>
+              <ns5:ZL_DIVISION_NUMBER>71</ns5:ZL_DIVISION_NUMBER>
+              <ns5:ALT_STORE_NUMBER>1891</ns5:ALT_STORE_NUMBER>
+              <ns5:ALT_DIVISION_NUMBER>1837</ns5:ALT_DIVISION_NUMBER>
+              <ns5:ADDRESS>
+                <LOCATION_NUMBER>5264</LOCATION_NUMBER>
+                <STORE_NAME>Florence                                          </STORE_NAME>
+                <ADDRESS_LINE1>5000 MALL ROAD                          </ADDRESS_LINE1>
+                <ADDRESS_LINE2>                                        </ADDRESS_LINE2>
+                <CITY>FLORENCE       </CITY>
+                <STATE>KY</STATE>
+                <ZIPCODE>41042</ZIPCODE>
+                <COUNTRY>US</COUNTRY>
+                <PHONE_NUMBER>8595255600</PHONE_NUMBER>
+                <ADDRESS_TYPE>MAILING                       </ADDRESS_TYPE>
+              </ns5:ADDRESS>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5264</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-28</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5264</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-29</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5264</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-30</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5264</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-10-01</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5264</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>1</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Wedding                                 </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5264</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>2</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Gift Registry                           </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5264</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>3</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Mattresses                              </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5264</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>4</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Furniture Gallery                       </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+            </STORE>
+          </STORE>
+        </STORE_AVAILABILITY>
+        <STORE_AVAILABILITY>
+          <LOCATION_NUMBER>5266</LOCATION_NUMBER>
+          <AVAILABLE_TO_SELL>0</AVAILABLE_TO_SELL>
+          <NOT_AVAILABLE_TO_SELL>2</NOT_AVAILABLE_TO_SELL>
+          <AVAILABLE_QTY>5</AVAILABLE_QTY>
+          <STATUS_FLAG>false</STATUS_FLAG>
+          <AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+          <LOCATION_NOT_FOUND>false</LOCATION_NOT_FOUND>
+          <STORE>
+            <DISTANCE>10.86</DISTANCE>
+            <STORE_MAP_URL>http://maps.googleapis.com/maps/api/staticmap?format=JPEG&amp;zoom=14&amp;size=400x400&amp;sensor=false&amp;key=AIzaSyC699Qqp-wPKXGVsQrRkaLXkp9vjoxg_hs&amp;markers=icon:http://www.xyz.com/dyn_img/google_maps/no_letter_red_icon_2.png%7C39.2461785,%20-84.5958308</STORE_MAP_URL>
+            <STORE>
+              <ns5:LOCATION_NUMBER>5266</ns5:LOCATION_NUMBER>
+              <ns5:DIVISION_NUMBER>12</ns5:DIVISION_NUMBER>
+              <ns5:ZL_STORE_NUMBER>567</ns5:ZL_STORE_NUMBER>
+              <ns5:ZL_DIVISION_NUMBER>71</ns5:ZL_DIVISION_NUMBER>
+              <ns5:ALT_STORE_NUMBER>2004</ns5:ALT_STORE_NUMBER>
+              <ns5:ALT_DIVISION_NUMBER>1837</ns5:ALT_DIVISION_NUMBER>
+              <ns5:ADDRESS>
+                <LOCATION_NUMBER>5266</LOCATION_NUMBER>
+                <STORE_NAME>Northgate                                         </STORE_NAME>
+                <ADDRESS_LINE1>9531 COLERAIN AVENUE                    </ADDRESS_LINE1>
+                <ADDRESS_LINE2>                                        </ADDRESS_LINE2>
+                <CITY>CINCINNATI     </CITY>
+                <STATE>OH</STATE>
+                <ZIPCODE>45251</ZIPCODE>
+                <COUNTRY>US</COUNTRY>
+                <PHONE_NUMBER>5132455200</PHONE_NUMBER>
+                <ADDRESS_TYPE>MAILING                       </ADDRESS_TYPE>
+              </ns5:ADDRESS>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5266</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-28</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5266</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-29</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5266</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-30</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5266</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-10-01</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5266</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>1</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Wedding                                 </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5266</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>4</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Furniture Gallery                       </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+            </STORE>
+          </STORE>
+        </STORE_AVAILABILITY>
+        <STORE_AVAILABILITY>
+          <LOCATION_NUMBER>5263</LOCATION_NUMBER>
+          <AVAILABLE_TO_SELL>0</AVAILABLE_TO_SELL>
+          <NOT_AVAILABLE_TO_SELL>2</NOT_AVAILABLE_TO_SELL>
+          <AVAILABLE_QTY>5</AVAILABLE_QTY>
+          <STATUS_FLAG>false</STATUS_FLAG>
+          <AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+          <LOCATION_NOT_FOUND>false</LOCATION_NOT_FOUND>
+          <STORE>
+            <DISTANCE>14.20</DISTANCE>
+            <STORE_MAP_URL>http://maps.googleapis.com/maps/api/staticmap?format=JPEG&amp;zoom=14&amp;size=400x400&amp;sensor=false&amp;key=AIzaSyC699Qqp-wPKXGVsQrRkaLXkp9vjoxg_hs&amp;markers=icon:http://www.xyz.com/dyn_img/google_maps/no_letter_red_icon_2.png%7C39.3026431,%20-84.4492992</STORE_MAP_URL>
+            <STORE>
+              <ns5:LOCATION_NUMBER>5263</ns5:LOCATION_NUMBER>
+              <ns5:DIVISION_NUMBER>12</ns5:DIVISION_NUMBER>
+              <ns5:ZL_STORE_NUMBER>564</ns5:ZL_STORE_NUMBER>
+              <ns5:ZL_DIVISION_NUMBER>71</ns5:ZL_DIVISION_NUMBER>
+              <ns5:ALT_STORE_NUMBER>1982</ns5:ALT_STORE_NUMBER>
+              <ns5:ALT_DIVISION_NUMBER>1837</ns5:ALT_DIVISION_NUMBER>
+              <ns5:ADDRESS>
+                <LOCATION_NUMBER>5263</LOCATION_NUMBER>
+                <STORE_NAME>Tri-County                                        </STORE_NAME>
+                <ADDRESS_LINE1>1170 PRINCETON ROAD NE                  </ADDRESS_LINE1>
+                <ADDRESS_LINE2>                                        </ADDRESS_LINE2>
+                <CITY>CINCINNATI     </CITY>
+                <STATE>OH</STATE>
+                <ZIPCODE>45246</ZIPCODE>
+                <COUNTRY>US</COUNTRY>
+                <PHONE_NUMBER>5137822395</PHONE_NUMBER>
+                <ADDRESS_TYPE>MAILING                       </ADDRESS_TYPE>
+              </ns5:ADDRESS>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5263</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-28</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5263</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-29</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5263</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-30</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5263</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-10-01</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5263</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>1</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Wedding                                 </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5263</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>2</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Gift Registry                           </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5263</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>4</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Furniture Gallery                       </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+            </STORE>
+          </STORE>
+        </STORE_AVAILABILITY>
+        <STORE_AVAILABILITY>
+          <LOCATION_NUMBER>5286</LOCATION_NUMBER>
+          <AVAILABLE_TO_SELL>0</AVAILABLE_TO_SELL>
+          <NOT_AVAILABLE_TO_SELL>2</NOT_AVAILABLE_TO_SELL>
+          <AVAILABLE_QTY>5</AVAILABLE_QTY>
+          <STATUS_FLAG>false</STATUS_FLAG>
+          <AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+          <LOCATION_NOT_FOUND>false</LOCATION_NOT_FOUND>
+          <STORE>
+            <DISTANCE>40.03</DISTANCE>
+            <STORE_MAP_URL>http://maps.googleapis.com/maps/api/staticmap?format=JPEG&amp;zoom=14&amp;size=400x400&amp;sensor=false&amp;key=AIzaSyC699Qqp-wPKXGVsQrRkaLXkp9vjoxg_hs&amp;markers=icon:http://www.xyz.com/dyn_img/google_maps/no_letter_red_icon_2.png%7C39.6365511,%20-84.2199274</STORE_MAP_URL>
+            <STORE>
+              <ns5:LOCATION_NUMBER>5286</ns5:LOCATION_NUMBER>
+              <ns5:DIVISION_NUMBER>12</ns5:DIVISION_NUMBER>
+              <ns5:ZL_STORE_NUMBER>587</ns5:ZL_STORE_NUMBER>
+              <ns5:ZL_DIVISION_NUMBER>71</ns5:ZL_DIVISION_NUMBER>
+              <ns5:ALT_STORE_NUMBER>1946</ns5:ALT_STORE_NUMBER>
+              <ns5:ALT_DIVISION_NUMBER>1837</ns5:ALT_DIVISION_NUMBER>
+              <ns5:ADDRESS>
+                <LOCATION_NUMBER>5286</LOCATION_NUMBER>
+                <STORE_NAME>Dayton                                            </STORE_NAME>
+                <ADDRESS_LINE1>2700 MIAMISBURG CENTERVILLE RD          </ADDRESS_LINE1>
+                <ADDRESS_LINE2>                                        </ADDRESS_LINE2>
+                <CITY>DAYTON         </CITY>
+                <STATE>OH</STATE>
+                <ZIPCODE>45459</ZIPCODE>
+                <COUNTRY>US</COUNTRY>
+                <PHONE_NUMBER>9374392152</PHONE_NUMBER>
+                <ADDRESS_TYPE>MAILING                       </ADDRESS_TYPE>
+              </ns5:ADDRESS>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5286</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-28</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5286</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-29</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5286</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-30</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5286</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-10-01</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5286</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>1</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Wedding                                 </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5286</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>2</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Gift Registry                           </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5286</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>3</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Mattresses                              </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+            </STORE>
+          </STORE>
+        </STORE_AVAILABILITY>
+        <STORE_AVAILABILITY>
+          <LOCATION_NUMBER>5289</LOCATION_NUMBER>
+          <AVAILABLE_TO_SELL>0</AVAILABLE_TO_SELL>
+          <NOT_AVAILABLE_TO_SELL>2</NOT_AVAILABLE_TO_SELL>
+          <AVAILABLE_QTY>5</AVAILABLE_QTY>
+          <STATUS_FLAG>false</STATUS_FLAG>
+          <AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+          <LOCATION_NOT_FOUND>false</LOCATION_NOT_FOUND>
+          <STORE>
+            <DISTANCE>51.93</DISTANCE>
+            <STORE_MAP_URL>http://maps.googleapis.com/maps/api/staticmap?format=JPEG&amp;zoom=14&amp;size=400x400&amp;sensor=false&amp;key=AIzaSyC699Qqp-wPKXGVsQrRkaLXkp9vjoxg_hs&amp;markers=icon:http://www.xyz.com/dyn_img/google_maps/no_letter_red_icon_2.png%7C39.7673771,%20-84.0567172</STORE_MAP_URL>
+            <STORE>
+              <ns5:LOCATION_NUMBER>5289</ns5:LOCATION_NUMBER>
+              <ns5:DIVISION_NUMBER>12</ns5:DIVISION_NUMBER>
+              <ns5:ZL_STORE_NUMBER>590</ns5:ZL_STORE_NUMBER>
+              <ns5:ZL_DIVISION_NUMBER>71</ns5:ZL_DIVISION_NUMBER>
+              <ns5:ALT_STORE_NUMBER>2081</ns5:ALT_STORE_NUMBER>
+              <ns5:ALT_DIVISION_NUMBER>1837</ns5:ALT_DIVISION_NUMBER>
+              <ns5:ADDRESS>
+                <LOCATION_NUMBER>5289</LOCATION_NUMBER>
+                <STORE_NAME>Fairfield Commons                                 </STORE_NAME>
+                <ADDRESS_LINE1>2727 FAIRFIELD COMMONS BLVD.            </ADDRESS_LINE1>
+                <ADDRESS_LINE2>                                        </ADDRESS_LINE2>
+                <CITY>DAYTON         </CITY>
+                <STATE>OH</STATE>
+                <ZIPCODE>45431</ZIPCODE>
+                <COUNTRY>US</COUNTRY>
+                <PHONE_NUMBER>9373202312</PHONE_NUMBER>
+                <ADDRESS_TYPE>MAILING                       </ADDRESS_TYPE>
+              </ns5:ADDRESS>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5289</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-28</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5289</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-29</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5289</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-30</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:30:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5289</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-10-01</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:30:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5289</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>1</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Wedding                                 </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5289</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>2</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Gift Registry                           </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+            </STORE>
+          </STORE>
+        </STORE_AVAILABILITY>
+        <STORE_AVAILABILITY>
+          <LOCATION_NUMBER>5260</LOCATION_NUMBER>
+          <AVAILABLE_TO_SELL>0</AVAILABLE_TO_SELL>
+          <NOT_AVAILABLE_TO_SELL>2</NOT_AVAILABLE_TO_SELL>
+          <AVAILABLE_QTY>5</AVAILABLE_QTY>
+          <STATUS_FLAG>false</STATUS_FLAG>
+          <AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+          <LOCATION_NOT_FOUND>false</LOCATION_NOT_FOUND>
+          <STORE>
+            <DISTANCE>76.84</DISTANCE>
+            <STORE_MAP_URL>http://maps.googleapis.com/maps/api/staticmap?format=JPEG&amp;zoom=14&amp;size=400x400&amp;sensor=false&amp;key=AIzaSyC699Qqp-wPKXGVsQrRkaLXkp9vjoxg_hs&amp;markers=icon:http://www.xyz.com/dyn_img/google_maps/no_letter_red_icon_2.png%7C37.990937,%20-84.526278</STORE_MAP_URL>
+            <STORE>
+              <ns5:LOCATION_NUMBER>5260</ns5:LOCATION_NUMBER>
+              <ns5:DIVISION_NUMBER>12</ns5:DIVISION_NUMBER>
+              <ns5:ZL_STORE_NUMBER>561</ns5:ZL_STORE_NUMBER>
+              <ns5:ZL_DIVISION_NUMBER>71</ns5:ZL_DIVISION_NUMBER>
+              <ns5:ALT_STORE_NUMBER>1876</ns5:ALT_STORE_NUMBER>
+              <ns5:ALT_DIVISION_NUMBER>1837</ns5:ALT_DIVISION_NUMBER>
+              <ns5:ADDRESS>
+                <LOCATION_NUMBER>5260</LOCATION_NUMBER>
+                <STORE_NAME>Fayette                                           </STORE_NAME>
+                <ADDRESS_LINE1>3301 NICHOLASVILLE ROAD                 </ADDRESS_LINE1>
+                <ADDRESS_LINE2>                                        </ADDRESS_LINE2>
+                <CITY>LEXINGTON      </CITY>
+                <STATE>KY</STATE>
+                <ZIPCODE>40503</ZIPCODE>
+                <COUNTRY>US</COUNTRY>
+                <PHONE_NUMBER>8592717200</PHONE_NUMBER>
+                <ADDRESS_TYPE>MAILING                       </ADDRESS_TYPE>
+              </ns5:ADDRESS>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5260</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-28</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5260</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-29</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5260</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-30</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5260</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-10-01</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5260</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>1</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Wedding                                 </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5260</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>2</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Gift Registry                           </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5260</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>3</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Mattresses                              </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5260</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>4</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Furniture Gallery                       </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+            </STORE>
+          </STORE>
+        </STORE_AVAILABILITY>
+        <STORE_AVAILABILITY>
+          <LOCATION_NUMBER>5261</LOCATION_NUMBER>
+          <AVAILABLE_TO_SELL>0</AVAILABLE_TO_SELL>
+          <NOT_AVAILABLE_TO_SELL>2</NOT_AVAILABLE_TO_SELL>
+          <AVAILABLE_QTY>5</AVAILABLE_QTY>
+          <STATUS_FLAG>false</STATUS_FLAG>
+          <AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+          <LOCATION_NOT_FOUND>false</LOCATION_NOT_FOUND>
+          <STORE>
+            <DISTANCE>83.69</DISTANCE>
+            <STORE_MAP_URL>http://maps.googleapis.com/maps/api/staticmap?format=JPEG&amp;zoom=14&amp;size=400x400&amp;sensor=false&amp;key=AIzaSyC699Qqp-wPKXGVsQrRkaLXkp9vjoxg_hs&amp;markers=icon:http://www.xyz.com/dyn_img/google_maps/no_letter_red_icon_2.png%7C38.2473268,%20-85.6100489</STORE_MAP_URL>
+            <STORE>
+              <ns5:LOCATION_NUMBER>5261</ns5:LOCATION_NUMBER>
+              <ns5:DIVISION_NUMBER>12</ns5:DIVISION_NUMBER>
+              <ns5:ZL_STORE_NUMBER>562</ns5:ZL_STORE_NUMBER>
+              <ns5:ZL_DIVISION_NUMBER>71</ns5:ZL_DIVISION_NUMBER>
+              <ns5:ALT_STORE_NUMBER>1864</ns5:ALT_STORE_NUMBER>
+              <ns5:ALT_DIVISION_NUMBER>1837</ns5:ALT_DIVISION_NUMBER>
+              <ns5:ADDRESS>
+                <LOCATION_NUMBER>5261</LOCATION_NUMBER>
+                <STORE_NAME>Oxmoor Center                                     </STORE_NAME>
+                <ADDRESS_LINE1>7900 SHELBYVILLE ROAD                   </ADDRESS_LINE1>
+                <ADDRESS_LINE2>                                        </ADDRESS_LINE2>
+                <CITY>LOUISVILLE     </CITY>
+                <STATE>KY</STATE>
+                <ZIPCODE>40222</ZIPCODE>
+                <COUNTRY>US</COUNTRY>
+                <PHONE_NUMBER>5024233000</PHONE_NUMBER>
+                <ADDRESS_TYPE>MAILING                       </ADDRESS_TYPE>
+              </ns5:ADDRESS>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5261</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-28</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5261</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-29</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5261</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-30</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5261</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-10-01</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>22:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5261</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>1</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Wedding                                 </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5261</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>2</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Gift Registry                           </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5261</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>3</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Mattresses                              </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5261</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>6</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Visitor Services                        </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+            </STORE>
+          </STORE>
+        </STORE_AVAILABILITY>
+        <STORE_AVAILABILITY>
+          <LOCATION_NUMBER>5269</LOCATION_NUMBER>
+          <AVAILABLE_TO_SELL>0</AVAILABLE_TO_SELL>
+          <NOT_AVAILABLE_TO_SELL>2</NOT_AVAILABLE_TO_SELL>
+          <AVAILABLE_QTY>5</AVAILABLE_QTY>
+          <STATUS_FLAG>false</STATUS_FLAG>
+          <AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+          <LOCATION_NOT_FOUND>false</LOCATION_NOT_FOUND>
+          <STORE>
+            <DISTANCE>91.46</DISTANCE>
+            <STORE_MAP_URL>http://maps.googleapis.com/maps/api/staticmap?format=JPEG&amp;zoom=14&amp;size=400x400&amp;sensor=false&amp;key=AIzaSyC699Qqp-wPKXGVsQrRkaLXkp9vjoxg_hs&amp;markers=icon:http://www.xyz.com/dyn_img/google_maps/no_letter_red_icon_2.png%7C38.1384934,%20-85.6725015</STORE_MAP_URL>
+            <STORE>
+              <ns5:LOCATION_NUMBER>5269</ns5:LOCATION_NUMBER>
+              <ns5:DIVISION_NUMBER>12</ns5:DIVISION_NUMBER>
+              <ns5:ZL_STORE_NUMBER>570</ns5:ZL_STORE_NUMBER>
+              <ns5:ZL_DIVISION_NUMBER>71</ns5:ZL_DIVISION_NUMBER>
+              <ns5:ALT_STORE_NUMBER>2103</ns5:ALT_STORE_NUMBER>
+              <ns5:ALT_DIVISION_NUMBER>1837</ns5:ALT_DIVISION_NUMBER>
+              <ns5:ADDRESS>
+                <LOCATION_NUMBER>5269</LOCATION_NUMBER>
+                <STORE_NAME>Jefferson                                         </STORE_NAME>
+                <ADDRESS_LINE1>4809 OUTER LOOP ROAD                    </ADDRESS_LINE1>
+                <ADDRESS_LINE2>                                        </ADDRESS_LINE2>
+                <CITY>LOUISVILLE     </CITY>
+                <STATE>KY</STATE>
+                <ZIPCODE>40219</ZIPCODE>
+                <COUNTRY>US</COUNTRY>
+                <PHONE_NUMBER>5029661800</PHONE_NUMBER>
+                <ADDRESS_TYPE>MAILING                       </ADDRESS_TYPE>
+              </ns5:ADDRESS>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5269</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-28</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5269</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-29</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5269</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-30</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5269</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-10-01</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5269</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>2</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Gift Registry                           </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+            </STORE>
+          </STORE>
+        </STORE_AVAILABILITY>
+        <STORE_AVAILABILITY>
+          <LOCATION_NUMBER>5300</LOCATION_NUMBER>
+          <AVAILABLE_TO_SELL>0</AVAILABLE_TO_SELL>
+          <NOT_AVAILABLE_TO_SELL>2</NOT_AVAILABLE_TO_SELL>
+          <AVAILABLE_QTY>5</AVAILABLE_QTY>
+          <STATUS_FLAG>false</STATUS_FLAG>
+          <AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+          <LOCATION_NOT_FOUND>false</LOCATION_NOT_FOUND>
+          <STORE>
+            <DISTANCE>93.39</DISTANCE>
+            <STORE_MAP_URL>http://maps.googleapis.com/maps/api/staticmap?format=JPEG&amp;zoom=14&amp;size=400x400&amp;sensor=false&amp;key=AIzaSyC699Qqp-wPKXGVsQrRkaLXkp9vjoxg_hs&amp;markers=icon:http://www.xyz.com/dyn_img/google_maps/no_letter_red_icon_2.png%7C39.6329483,%20-86.120412</STORE_MAP_URL>
+            <STORE>
+              <ns5:LOCATION_NUMBER>5300</ns5:LOCATION_NUMBER>
+              <ns5:DIVISION_NUMBER>12</ns5:DIVISION_NUMBER>
+              <ns5:ZL_STORE_NUMBER>602</ns5:ZL_STORE_NUMBER>
+              <ns5:ZL_DIVISION_NUMBER>71</ns5:ZL_DIVISION_NUMBER>
+              <ns5:ALT_STORE_NUMBER>2043</ns5:ALT_STORE_NUMBER>
+              <ns5:ALT_DIVISION_NUMBER>1837</ns5:ALT_DIVISION_NUMBER>
+              <ns5:ADDRESS>
+                <LOCATION_NUMBER>5300</LOCATION_NUMBER>
+                <STORE_NAME>Greenwood Park                                    </STORE_NAME>
+                <ADDRESS_LINE1>1251 US HIGHWAY 31 N                    </ADDRESS_LINE1>
+                <ADDRESS_LINE2>                                        </ADDRESS_LINE2>
+                <CITY>GREENWOOD      </CITY>
+                <STATE>IN</STATE>
+                <ZIPCODE>46142</ZIPCODE>
+                <COUNTRY>US</COUNTRY>
+                <PHONE_NUMBER>3178826247</PHONE_NUMBER>
+                <ADDRESS_TYPE>MAILING                       </ADDRESS_TYPE>
+              </ns5:ADDRESS>
+              <ns5:STORE_HOUR>
+                <LOCATION_NUMBER>5300</LOCATION_NUMBER>
+                <OPERATION_DATE>2016-09-28</OPERATION_DATE>
+                <OPEN_TIME>10:00:00</OPEN_TIME>
+                <CLOSE_TIME>21:00:00</CLOSE_TIME>
+              </ns5:STORE_HOUR>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5300</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>1</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Wedding                                 </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5300</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>2</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Gift Registry                           </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+              <ns5:STORE_FEATURE>
+                <LOCATION_NUMBER>5300</LOCATION_NUMBER>
+                <STORE_FEATURE_TYPE_NUMBER>4</STORE_FEATURE_TYPE_NUMBER>
+                <STORE_FEATURE_DESCRIPTION>Furniture Gallery                       </STORE_FEATURE_DESCRIPTION>
+              </ns5:STORE_FEATURE>
+            </STORE>
+          </STORE>
+        </STORE_AVAILABILITY>
+        <NEXT_KEY/>
+        <PREV_KEY> </PREV_KEY>
+      </output>
+    </ns3:CHECK_IN_STORE_BY_CITY_STATEResponse>
+  </soap:Body>
+</soap:Envelope>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/">
+  <soapenv:Header/>
+  <soapenv:Body>
+      <v001:CHECK_IN_STORE_BY_CITY_STATE xmlns:v001="http://www.xyz.com/wsdl/CHECK_IN_STORE/v001_000">
+         <input>
+            <REF_ID>271</REF_ID>
+            <UPC>10942125433</UPC>
+            <CITY>DUBLIN</CITY>
+            <STATE>OH</STATE>
+            <SEARCH_CRITERIA>
+               <NUMBER_OF_STORES>10</NUMBER_OF_STORES>
+               <RADIUS_IN_MILES>50</RADIUS_IN_MILES>
+               <PAGE_RESULTS>5</PAGE_RESULTS>
+               <FEATURE_FILTER>MATTRESS</FEATURE_FILTER>
+               <LOCATION_TYPE>FUL</LOCATION_TYPE>
+            </SEARCH_CRITERIA>
+         </input>
+      </v001:CHECK_IN_STORE_BY_CITY_STATE>
+   </soapenv:Body>
+   </soapenv:Envelope>

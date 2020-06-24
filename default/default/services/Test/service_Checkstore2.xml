@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Header xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/"/>
+  <soap:Body>
+    <ns3:CHECK_IN_STORE_BY_CITY_STATEResponse xmlns:ns3="http://www.abc.xyz.com/wsdl/CHECK_IN_STORE/v001_000" xmlns:ns2="http://www.abc.xyz.com/xsd/CHECK_IN_STORE/v001_000" xmlns:ns4="http://www.xyz.com/enterprise_services" xmlns:ns5="http://www.abc.xyz.com/xsd/STORE_LOCATOR/v001_000">
+      <output>
+        <UPC>2222222222</UPC>
+        <STORE_AVAILABILITY>
+          <LOCATION_NUMBER>12</LOCATION_NUMBER>
+          <AVAILABLE_TO_SELL>2</AVAILABLE_TO_SELL>
+          <NOT_AVAILABLE_TO_SELL>2</NOT_AVAILABLE_TO_SELL>
+          <AVAILABLE_QTY>2</AVAILABLE_QTY>
+          <STATUS_FLAG>false</STATUS_FLAG>
+          <AVAILABILITY_FLAG>N</AVAILABILITY_FLAG>
+          <LOCATION_NOT_FOUND>false</LOCATION_NOT_FOUND>
+          <STORE>
+      </output>
+    </ns3:CHECK_IN_STORE_BY_CITY_STATEResponse>
+  </soap:Body>
+</soap:Envelope>
