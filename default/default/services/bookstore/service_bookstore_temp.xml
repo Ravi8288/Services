@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+<book category="cooking">
+<title lang="en">Everyday Italian</title>
+<author>Giada De Laurentiis</author>
+<year>2005</year>
+<price>30.00</price>
+</book>
+<book category="children">
+<title lang="hi">Sampoorna Panchatantra</title>
+<author>Vishnu Sharma</author>
+<year>2005</year>
+<price>29.99</price>
+</book>
+<book category="thriller">
+<title lang="es">The Angel's Game</title>
+<author> Carlos Ruiz Zafón</author>
+<year>2003</year>
+<price>39.95</price>
+</book>
+<book category="fiction">
+<title lang="hi">Godaan</title>
+<author>Munshi Premchand</author>
+<year>2000</year>
+<price>2.95</price>
+</book>
+<book category="fiction">
+<title lang="en">The Alchemist</title>
+<author>Paulo Coelho</author>
+<year>1980</year>
+<price>3.00</price>
+</book>
+</bookstore>
